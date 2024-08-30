@@ -1,0 +1,43 @@
+body {
+    color: green;
+    background: black;
+}
+
+header {
+color: red;
+border-bottom: solid 10px white;
+padding: 10px;
+font-size: 35px;
+}
+
+section {
+background: white;
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.chamada-texto{
+margin-right: 20px;
+border-right: solid 6px black;
+
+}
+
+.categoria-videos img{
+height: 200px;
+opacity: 0.5;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    height: 220px;
+}
+
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+}
+
+
+
